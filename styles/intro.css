@@ -62,3 +62,9 @@
 
     cursor: pointer;
 }
+
+.social-media {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
