@@ -2,7 +2,6 @@
     background-color: var(--gray-100);
     height: 480px;
     padding: 88px 120px 120px;
-    border: 1px solid red;
 }
 
 .header-services {
