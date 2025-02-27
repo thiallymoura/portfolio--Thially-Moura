@@ -43,6 +43,7 @@ body {
     padding: 120px 163px 183px;
 }
 
+
 h1 {
     font: var(--text-lg-asap);
     color: var(--gray-600);
@@ -56,4 +57,19 @@ h1 {
 .font-text-sm-maven {
     font: var(--text-sm-maven);
     color: var(--gray-400);
+}
+
+.font-text-md-asap {
+    font: var(--text-md-asap);
+    color: var(--gray-600);
+}
+
+.font-subtitle-red {
+    font: var(--text-subtitle);
+    color: var(--color-red);
+}
+
+.font-text-sm-asap {
+    font: var(--text-sm-asap);
+    color: var(--gray-600);
 }
