@@ -1,0 +1,76 @@
+#contact {
+    background-image: url(../assets/Background_Contacts.png);
+    background-size: cover;
+    background-position: center;
+    height: 787px;
+    padding: 128px 120px 200px;
+}
+
+.header-contact {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.contact-content {
+    width: 400px;
+    height: 320px;
+    margin: auto;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 68px;
+
+    background-color: var(--gray-300);
+    border: 1px solid var(--gray-300);
+
+    border-radius: 12px;
+    padding: 0 23px;
+
+    transition: background 0.2s;
+}
+
+
+.card a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estiliza a área do ícone + nome */
+.card-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Ajusta o tamanho dos ícones dentro dos cards */
+.icon-contact {
+    width: 24px;
+    height: 24px;
+}
+
+/* Efeito de hover ao passar o mouse */
+.card:hover {
+    border: 1px solid var(--color-blue);
+    cursor: pointer;
+}
+
+/* Ícone azul ao passar o mouse */
+.card:hover .icon-contact {
+    filter: brightness(0) saturate(100%) invert(34%) sepia(99%) saturate(1086%) hue-rotate(195deg) brightness(96%) contrast(95%);
+}

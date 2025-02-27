@@ -73,3 +73,13 @@ h1 {
     font: var(--text-sm-asap);
     color: var(--gray-600);
 }
+
+.font-subtitle-purple {
+    font: var(--text-subtitle);
+    color: var(--color-purple);
+}
+
+.font-text-md-maven {
+    font: var(--text-md-maven);
+    color: var(--gray-500);
+}
