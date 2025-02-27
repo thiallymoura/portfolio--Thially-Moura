@@ -19,14 +19,41 @@
     --gray-600: #E2E4E9;
 
     --font-familly-asap: 'Asap', sans-serif;
-    --text-lg: 600 56px/120% var(--font-familly-asap);
-    --text-md: 600 24px/120% var(--font-familly-asap);
-    --text-sm: 600 16px/120% var(--font-familly-asap);
+    --text-lg-asap: 600 56px/120% var(--font-familly-asap);
+    --text-md-asap: 600 24px/120% var(--font-familly-asap);
+    --text-sm-asap: 600 16px/120% var(--font-familly-asap);
 
     --font-familly-inconsolata: 'Inconsolata', monospace;
-    --text-subtitle: 400 2px/120% var(--font-familly-inconsolata);
+    --text-subtitle: 400 20px/120% var(--font-familly-inconsolata);
 
     --font-familly-maven: 'Maven Pro', sans-serif;
-    --text-md: 400 16px/140% var(--font-familly-maven);
-    --text-sm: 400 14px/140% var(--font-familly-maven);
+    --text-md-maven: 400 16px/140% var(--font-familly-maven);
+    --text-sm-maven: 400 14px/140% var(--font-familly-maven);
+}
+
+
+body {
+    /* background-color: var(--gray-300); */
+    font: var(--text-md-maven);
+}
+
+.container {
+    max-width: 100%;
+    height: 750px;
+    padding: 120px 163px 183px;
+}
+
+h1 {
+    font: var(--text-lg-asap);
+    color: var(--gray-600);
+}
+
+.font-subtitle {
+    font: var(--text-subtitle);
+    color: var(--gray-500);
+}
+
+.font-text-sm-maven {
+    font: var(--text-sm-maven);
+    color: var(--gray-400);
 }

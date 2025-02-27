@@ -1,0 +1,65 @@
+#intro {
+    background-image: url(../assets/Background_Intro.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.intro-content {
+    position: relative;
+    width: 1040px;
+    height: 447px;
+    margin: auto;
+}
+
+.profile {
+    width: 680px;
+    height: 327px;
+    text-align: center;
+    margin: auto;
+}
+
+.profile-image {
+    padding-bottom: 56px;
+}
+
+.cor-name {
+    color: var(--color-red);
+}
+
+.profile-text h1 {
+    padding-block: 8px 15px;
+}
+
+.tech-icons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+    color: var(--gray-500);
+    bottom: 0px;
+    left: 142px;
+    width: 754px;
+    height: 40px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    width: 110px;
+
+    background-color: var(--gray-300);
+    border-radius: 16px;
+}
+
+.arrow {
+    width: 32px;
+    height: 32px;
+
+    margin: 0 auto;
+    margin-top: 100px;
+
+    cursor: pointer;
+}
