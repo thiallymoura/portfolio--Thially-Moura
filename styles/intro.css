@@ -45,9 +45,10 @@
 .icon {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 6px;
     align-items: center;
-    width: 110px;
+    width: 115px;
+    padding: 8px;
 
     background-color: var(--gray-300);
     border-radius: 16px;
